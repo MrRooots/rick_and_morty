@@ -6,8 +6,8 @@ import 'package:rick_and_morty/core/palette/palette.dart';
 import 'package:rick_and_morty/feature/domain/entities/character_entity.dart';
 import 'package:rick_and_morty/feature/presentation/bloc/characters_bloc/characters_bloc.dart';
 import 'package:rick_and_morty/feature/presentation/widgets/character_card.dart';
-import 'package:rick_and_morty/feature/presentation/widgets/loading_Indicator.dart';
-import 'package:rick_and_morty/feature/presentation/widgets/my_divider.dart';
+import 'package:rick_and_morty/feature/presentation/widgets/components/loading_Indicator.dart';
+import 'package:rick_and_morty/feature/presentation/widgets/components/my_divider.dart';
 
 class CharactersList extends StatelessWidget {
   final ScrollController _scrollController = ScrollController();

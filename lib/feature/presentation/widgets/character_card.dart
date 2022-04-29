@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:rick_and_morty/core/palette/palette.dart';
 import 'package:rick_and_morty/feature/domain/entities/character_entity.dart';
 import 'package:rick_and_morty/feature/presentation/pages/details.dart';
-import 'package:rick_and_morty/feature/presentation/widgets/circle.dart';
-import 'package:rick_and_morty/feature/presentation/widgets/image.dart';
+import 'package:rick_and_morty/feature/presentation/widgets/components/circle.dart';
+import 'package:rick_and_morty/feature/presentation/widgets/components/image.dart';
 
 class CharacterCard extends StatelessWidget {
   final CharacterEntity character;

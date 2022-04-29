@@ -4,7 +4,7 @@ import 'package:get_it/get_it.dart';
 import 'package:rick_and_morty/core/services/network_info.dart';
 import 'package:rick_and_morty/feature/presentation/pages/search.dart';
 import 'package:rick_and_morty/feature/presentation/widgets/characters_list.dart';
-import 'package:rick_and_morty/feature/presentation/widgets/circle.dart';
+import 'package:rick_and_morty/feature/presentation/widgets/components/circle.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
